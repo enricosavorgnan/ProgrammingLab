@@ -1,16 +1,10 @@
-def sum_csv (my_file):
+def sum_csv (file_name):
     sumresult = 0.0
     
-    for line in my_file:
-        elem = line.split (',')
-        print ('{}' .format(elem))
-        
+    for line in file_name:
+        elem = line.split (',')        
         if elem[1] != 'Sales\n':
             elem[1] = float(elem [1])
             sumresult = sumresult + elem[1] 
     
     return sumresult
-
-my_file = open ('shampoo_sales.txt', 'r')
-result = sum_csv (my_file)
-print ('{}' .format(result))
