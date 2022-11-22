@@ -1,7 +1,7 @@
 def sum_csv (file_name):
     elem = []
     sumresult = 0.0
-    my_file = open('file_name', 'r')
+    my_file = open(file_name, 'r')
 
     if my_file == []:
         return None 
