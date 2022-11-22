@@ -4,7 +4,7 @@ def sum_csv (file_name):
     my_file = open(file_name, 'r')
 
     if my_file == []:
-        return None 
+        return 0.0 
         
     for line in my_file:
         elem = line.split (',')        
