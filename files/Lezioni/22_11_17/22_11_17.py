@@ -3,8 +3,8 @@ def sum_csv (file_name):
     sumresult = 0.0
     my_file = open(file_name, 'r')
 
-    if my_file == []:
-        return 0.0 
+    if len(my_file) == 0:
+        return None 
         
     for line in my_file:
         elem = line.split (',')        
