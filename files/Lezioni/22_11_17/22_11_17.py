@@ -14,5 +14,4 @@ def sum_csv (file_name):
     
     if sumresult == 0.0:
         return None
-    
     return sumresult
