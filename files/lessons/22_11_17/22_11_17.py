@@ -15,3 +15,7 @@ def sum_csv (file_name):
     if sumresult == 0.0:
         return None
     return sumresult
+
+    # codice che non lavora su autograding!!:
+sumresult = sum_csv('shampoo_sales.txt')
+print('sum result is: {}' .format(sumresult))

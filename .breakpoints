@@ -1,0 +1,24 @@
+{
+  "files": {
+    "files/Lezioni/24_11_22/24_11_22.py": [
+      {
+        "id": "3e3bad0f-0ce3-46a5-8e1d-74271a8153c4",
+        "line": 45,
+        "version": 1825,
+        "index": 1525
+      },
+      {
+        "id": "d494aee8-1eb1-44ea-a4c5-66097f1ad9ca",
+        "line": 46,
+        "version": 1825,
+        "index": 1561
+      },
+      {
+        "id": "dafe802d-69b0-4d1c-a614-977b28e54406",
+        "line": 49,
+        "version": 1825,
+        "index": 1675
+      }
+    ]
+  }
+}
